@@ -2,6 +2,7 @@
 
 <p>Kickstarter seems like a perfect use case for ethereum smart contracts.</p>
 
+<p><b>Back-End (contract)</b></p>
 <p>This contract will allow a manager (person running the kickstarter campaign) to specify a minimum contribution amount.
 <br /> anyone will then be able to join this campaign by contributing anything above that amount.<br /> This is where
 the smart contract is better. With the current kickstarter app (if contribution limit was reached) the manager would have
@@ -35,8 +36,6 @@ keep track of all existing instances.</p>
 	<li>createRequest(string description, uint value, address recipient)</li>
 	<li>approveRequest(uint requestIndex)</li>
     <li>finalizeRequest(uint requestIndex)</li>
-    <li></li>
-    <li></li>
 </ul>
 
 <p>CampaignFactory</p>
@@ -49,3 +48,7 @@ keep track of all existing instances.</p>
 	<li>createCampaign(uint minimumContribution) </li>
 	<li>getDeployedCampaigns()</li>
 </ul>
+
+<p><b>Front-End</b></p>
+
+<p></p>
