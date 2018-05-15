@@ -4,7 +4,7 @@ import CampaignFactory from "./build/CampaignFactory.json";
 // Deployed Factory contract - to tell web3 about an already existing contract, pass it the contract's ABI (interface), and the address of the contract
 const instance = new web3.eth.Contract(
   JSON.parse(CampaignFactory.interface),
-  "0x00Ec8f394630CB45ba7593b01859bd0Be3E752c0"
+  "0x2b7A5D81d979d0eC2bEAeC9319b2f202B32fB27d"
 );
 
 export default instance;
