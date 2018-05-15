@@ -32,6 +32,7 @@ const deploy = async () => {
 
   console.log("Factory Address: ", result.options.address);
 
+  fs.removeSync("../DeployedFactoryAddress.txt");
   fs.outputJsonSync("../DeployedFactoryAddress.txt", result.options.address);
 };
 deploy();

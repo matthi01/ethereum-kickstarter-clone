@@ -2,6 +2,9 @@
 
 const routes = require("next-routes")();
 
-routes.add("test", "test");
+// add new route mapping for specific campaigns
+routes
+  .add("/campaigns/new", "/campaigns/new")
+  .add("/campaigns/:address", "/campaigns/show");
 
 module.exports = routes;
